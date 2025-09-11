@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  background-color: #f4f7fb; 
+  color: #333;
+}
+
+
+header {
+  width: 100%;
+  background: #1565c0; 
+  padding: 15px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;
+  padding: 80px 20px;
+
+  
+  background: url("background.jpg") no-repeat center center/cover;
+}
+
+
+
+.card {
+  background: linear-gradient(135deg, #1976d2, #42a5f5); 
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  max-width: 800px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.6;
+}
